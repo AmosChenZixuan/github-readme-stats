@@ -47,15 +47,15 @@ function calculateRank({
   const COMMITS_MEDIAN = all_commits ? 1000 : 250,
     COMMITS_WEIGHT = 10;
   const PRS_MEDIAN = 50,
-    PRS_WEIGHT = 1;
+    PRS_WEIGHT = 0;
   const ISSUES_MEDIAN = 25,
-    ISSUES_WEIGHT = 1;
+    ISSUES_WEIGHT = 0;
   const REVIEWS_MEDIAN = 2,
-    REVIEWS_WEIGHT = 1;
+    REVIEWS_WEIGHT = 0;
   const STARS_MEDIAN = 50,
     STARS_WEIGHT = 0;
   const FOLLOWERS_MEDIAN = 10,
-    FOLLOWERS_WEIGHT = 1;
+    FOLLOWERS_WEIGHT = 0;
 
   const TOTAL_WEIGHT =
     COMMITS_WEIGHT +
